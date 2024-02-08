@@ -7,11 +7,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: echo "Hello World!"
+
   hello_1:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - run: echo "Hello World! (1)"
+
   hello_2:
     runs-on: ubuntu-latest
     steps:

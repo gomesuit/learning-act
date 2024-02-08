@@ -1,0 +1,12 @@
+name: Test Envitonments
+on: push
+
+env:
+  DAY_OF_WEEK: Monday
+
+jobs:
+  test_env:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: echo $DAY_OF_WEEK
